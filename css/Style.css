@@ -1,0 +1,305 @@
+
+* /*=========================================
+   Tee's Hair 
+   ========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    line-height: 1.6;
+    color: #3d3036;
+    background: #fff8fb;
+}
+side-hearder{
+    position:sticky;top:0;z-index: 100;
+    display: flex;align-items: center;
+    padding: 18px 7%;
+    background-color: #23415a;
+    box-shadow: 0 2px 5px rgba(10, 10, 10, 0.08);
+   
+    
+
+}
+header {
+    background: linear-gradient(135deg, #723d57, #272326);
+    color: white;
+    text-align: center;
+    padding: 30px 20px 20px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+header p {
+    margin-bottom: 18px;
+    font-size: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: background 0.25s ease, transform 0.25s ease;
+}
+
+nav a:hover,
+nav a:focus {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+main {
+    width: min(1100px, 92%);
+    margin: 35px auto;
+}
+
+section {
+    background: white;
+    margin-bottom: 28px;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 5px 18px rgba(90, 35, 70, 0.08);
+    border: 1px solid #f0dce7;
+}
+
+section h2 {
+    color: #702d55;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.8rem;
+    margin-bottom: 14px;
+}
+
+section h3 {
+    color: #7b3560;
+    margin-bottom: 8px;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 22px;
+}
+
+li {
+    margin-bottom: 7px;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(50% - 12px);
+    margin: 10px 8px 10px 0;
+    padding: 22px;
+    background: #fff4f8;
+    border: 1px solid #e8c7d8;
+    border-radius: 12px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(90, 35, 70, 0.12);
+}
+
+form {
+    max-width: 650px;
+}
+
+label {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #5a2346;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d8b5c7;
+    border-radius: 8px;
+    font: inherit;
+    color: #3d3036;
+    background: #fff;
+    outline: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #8f416f;
+    box-shadow: 0 0 0 3px rgba(143, 65, 111, 0.12);
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    background: #7b3560;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.25s ease, transform 0.25s ease;
+}
+
+button:hover,
+button:focus {
+    background: #5a2346;
+    transform: translateY(-2px);
+}
+
+#result {
+    margin-top: 18px;
+    font-weight: 600;
+}
+
+footer {
+    margin-top: 45px;
+    padding: 25px 20px;
+    text-align: center;
+    background: #3f1b32;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+a {
+    color: #7b3560;
+}
+
+a:hover {
+    color: #5a2346;
+}
+
+@media (max-width: 700px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    nav a {
+        display: block;
+    }
+
+    main {
+        width: 94%;
+        margin: 20px auto;
+    }
+
+    section {
+        padding: 22px;
+    }
+
+    .card {
+        display: block;
+        width: 100%;
+        margin: 12px 0;
+    }
+}body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8fb;
+    color: #3d3036;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: #702d55;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #8f416f;
+}
+
+section {
+    padding: 30px;
+    margin: 20px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#result {
+    font-weight: bold;
+}
+Three main types of selectors
+
+
+
+p {
+    color: black;
+}
+
+    img {
+    width: 200px;
+    height: auto;
+} 
+img{
+    width: 300px;
+    height: 200px;
+}
